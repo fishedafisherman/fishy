@@ -18,6 +18,14 @@ window.onload = function() {
             tile.id = r.toString() + "-" + c.toString();
             tile.src = imgOrder.shift() + ".jpg";
 
+            //DRAG FUNCTIONALITY
+            tile.addEventListener("dragstart", dragStart); // click an image to drag
+            tile.addEventListener("dragover", dragOver); //moveing image around while clicked
+            tile.addEventListener("dragenter", dragEnter); //draggin image onto anothe one
+            tile.addEventListener("dragleave", dragLeave); //dragging image leaving another image
+            tile.addEventListener("drop", dragDrop); //drag an image over another image, dropping image
+            tile.addEventListener("dragend", dragEnd);// after drag drop, swap the two tiles
+
             document.getElementById("board").append(tile);
         }
     }
