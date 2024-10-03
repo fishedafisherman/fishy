@@ -20,6 +20,24 @@ body {
   font-style: normal;
 }
 
+#board {
+    width: 360px;
+    height: 360px;
+    background-color: lightblue;
+    border: 10px solid #0c67ae;
+    
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board img {
+    width: 118px;
+    height: 118px;
+    border: 1px solid #0c67ae;
+
+}
+
 /*
 <!-- HTML !-->
 <button class="button-52" role="button">Button 52</button>
