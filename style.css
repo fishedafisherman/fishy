@@ -1,0 +1,21 @@
+body {
+    background-color: darkgray;
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/*// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 700
+*/
+
+.comfortaa-uniquifier {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+  
